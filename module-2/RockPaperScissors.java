@@ -3,7 +3,7 @@
 //Module 2 Assignment
 //08-22-2025
 
-//
+///Single round of Rock, Paper, Scissors
 
 
 import java.util.Scanner;
