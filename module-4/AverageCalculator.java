@@ -8,11 +8,11 @@ public class AverageCalculator {
 
     //Short array
     public static short average(short[] array) {
-        int sum = 0; // use int to avoid overflow during calculation
+        int sum = 0; //use int to avoid overflow during calculation
         for (short num : array) {
             sum += num;
         }
-        return (short)(sum / array.length); // cast back to short
+        return (short)(sum / array.length); //cast back to short
     }
 
     //Int array
