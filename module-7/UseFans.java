@@ -17,7 +17,7 @@ public class UseFans {
         System.out.println("------------------------");
     }
 
-    //method to display a collection of Fans
+    //method to display collection of Fans
     public static void displayFans(ArrayList<Fan> fans) {
         for (Fan f : fans) {
             displayFan(f);
@@ -25,7 +25,7 @@ public class UseFans {
     }
 
     public static void main(String[] args) {
-        //create a collection of Fan objects
+        //create collection of Fan objects
         ArrayList<Fan> fanList = new ArrayList<>();
 
         Fan fan1 = new Fan(); // default fan
@@ -39,7 +39,7 @@ public class UseFans {
         fanList.add(fan3);
         fanList.add(fan4);
 
-        //display all fans in the collection
+        //display all fans in collection
         System.out.println("Displaying all fans in collection:\n");
         displayFans(fanList);
 
